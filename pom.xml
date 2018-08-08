@@ -102,6 +102,10 @@
             <artifactId>selenium-chrome-driver</artifactId>
             <version>3.0.1</version>
         </dependency>
+             <properties>
+               <maven.compiler.source>1.6</maven.compiler.source>
+               <maven.compiler.target>1.6</maven.compiler.target>
+ </properties>
 
     </dependencies>
 </project>
